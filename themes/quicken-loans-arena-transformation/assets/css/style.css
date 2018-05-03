@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+.footer-container p, .footer-container ul li, .footer-container label  {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer-container label  {
+    font-size: 12px;
+}
+.footer-container label.prename  {
+    font-size: 10px;
+}
+
+* {
+font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+p {
+    font-size: 11px;
+    font-weight: 600;
+}
+p.regular {
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    
+    text-transform: uppercase;
+    
+}
+
+h2 {font-weight: 800;}
+h5 {font-weight: bold;}
+h6 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+@media only screen and (min-width: 1125px){
+	.page-content-wrapper .row.footer {
+    	width: 880px;
+	}
+	.page-content-wrapper .row { 
+	    width:880px;
+	    margin: 0 auto;
+	}
+}
+.page-content-wrapper .col-md-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.menu-side li.list-item {
+    line-height: 3;
+}
+.menu-side {
+    
+    font-size: 10px;
+    list-style: none;
+    padding: 0;
+    font-weight: 600;
+    margin-left: 50px;
+}
+.social-icons {
+    padding: 12px 0 12px 0;
+}
+    
+
+
+@media only screen and (max-width: 6666px) and (min-width: 769px) {
+    .container-fluid {
+    margin-left:254px !important;
+    }
+}
+@media only screen and (max-width: 6666px) and (min-width: 768px) {
+#side-header {
+    left: 0px;
+    width: 255px;
+    height: 100%;
+    position: fixed;
+    z-index: 3000;
+    box-sizing: border-box;
+    clear-fix: clear-both;
+    display: block;
+    background: #303030;
+    color: white;
+    
+	}
+}
+
+.row.grid-boxes .col-md-4 .grid-wrapper{
+    display: grid;
+    min-height: 280px;
+    vertical-align: middle;
+    background: black;
+    border: 2.5px solid #b71f38;
+    color: white;
+}
+.row.grid-boxes {
+    padding-bottom: 30px;
+}
+
+.row.grid-boxes .col-md-4 .grid-wrapper a{
+   
+color: white;
+    
+}
+.line-separator{
+
+height:6px;
+    width: 56px;
+
+background:#b71f38;
+
+border-bottom:1px solid #b71f38;
+margin: 20px 0 20px 0;
+}
+.title-section, .row.button-seperater-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.row.counter {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
+.title-section h2 {
+color:#b71f38;
+}
+
+.post img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+h5 .lite {
+    font-weight: 200;
+}
+.post-content-container {
+    background: #f0f3f2;
+    padding: 40px 20px 20px 20px;
+}
+.row.counter {
+    text-align: center;
+}
+
+.btn.btn-secondary {
+    color: WHITE;
+    background-color: #b71f38;
+    border-radius: 20px;
+    border-color: #b71f38;
+       font-weight: 600;
+        font-size: 14px;
+    line-height: 1;
+}
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: unset;
+}
+
+.row.grid-boxes .col-md-4 {
+    display: grid;
+}
+.inner-grid-items {
+    margin: auto;
+}
+hr.style-eight {
+    overflow: visible;
+    padding: 0;
+    border: none;
+    border-top: medium double lightgray;
+}
+
+.inner-content-full-width-row{
+max-width: 850px;
+    margin: 0 auto;
+    color: white;
+    padding: 70px 0 70px 0;
+}
+
+.full-width {
+    background: black;
+}
+
+.row.posts a.btn {
+    color: WHITE;
+    background-color: #b71f38;
+    border-radius: 20px;
+    border-color: #b71f38;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1;
+}
+.about-wrapper {
+        margin: 60px 70px 60px 70px;
+}
+
+.footer-container {
+    background: black;
+    color: white;
+}
+.form-group ul {
+    padding: 0;
+    list-style: none;
+}
+input#input_1_2 {
+    width: 85%;
+}
+.prename {
+    display: block;
+}
+span#input_1_1_6_container, span#input_1_1_3_container {
+    display: inline-block;
+}
+input#input_1_1_3 {
+    margin-right: 25px;
+}
+.footer-menu {
+    font-size: 10px;
+}
+
+.line-separator2 {
+    height: 1px;
+    width: 180px;
+    background: #fff;
+    border-bottom: 1px solid #fff;
+    margin: 20px 0 20px 0;
+}
+.footer-container {
+    padding-top: 65px;
+}
